@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Item | Food Allergy Detector</title>
+    <link rel="stylesheet" href="styles/item.css">
+</head>
+<body>
+    <header>
+        <h1 id="item-name">Food Item</h1>
+        <a href="#" id="back-to-menu" class="back-btn">← Back to Menu</a>
+    </header>
+
+    <main>
+        <section class="item-details">
+            <div class="ingredients">
+                <h3>Ingredients</h3>
+                <ul id="ingredients-list">
+                    <!-- Loaded via JS -->
+                </ul>
+            </div>
+
+            <div class="allergy-warning hidden" id="allergy-warning">
+                <h3>⚠️ Allergy Alert</h3>
+                <p id="warning-text"></p>
+            </div>
+
+            <div class="alternatives hidden" id="alternatives">
+                <h3>✅ Safe Alternatives</h3>
+                <p id="alternatives-text"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="data/allergens.js"></script>
+    <script src="scripts/item.js"></script>
+</body>
+</html>

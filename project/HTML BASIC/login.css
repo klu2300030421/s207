@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Login Container */
+  .login-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Headings */
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Labels and Inputs */
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Error Messages */
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+  }
+  
+  /* Button */
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Success/Failure Message */
+  #message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+  }
+  

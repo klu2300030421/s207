@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu | Food Allergy Detector</title>
+    <link rel="stylesheet" href="styles/restaurant.css">
+</head>
+<body>
+    <header>
+        <h1 id="restaurant-name">Restaurant Name</h1>
+        <a href="index.html" class="back-btn">← Back to Restaurants</a>
+    </header>
+
+    <main>
+        <section class="menu-section">
+            <div class="menu-category">
+                <h3>Breakfast</h3>
+                <div class="menu-items" id="breakfast-items">
+                    <!-- Loaded via JS -->
+                </div>
+            </div>
+            <div class="menu-category">
+                <h3>Main Dishes</h3>
+                <div class="menu-items" id="main-items">
+                    <!-- Loaded via JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="data/restaurants.js"></script>
+    <script src="scripts/restaurant.js"></script>
+</body>
+</html>
